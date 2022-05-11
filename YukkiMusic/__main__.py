@@ -1,4 +1,3 @@
-
 import asyncio
 import importlib
 import sys
@@ -29,8 +28,7 @@ async def init():
         )
         return
     if (
-        not config.SPOTIFY_CLIENT_ID
-        and not config.SPOTIFY_CLIENT_SECRET
+        
     ):
         LOGGER("Technobotsupport").warning(
             "No Spotify Vars defined. Your bot won't be able to play spotify queries."
