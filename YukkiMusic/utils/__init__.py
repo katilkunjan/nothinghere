@@ -5,4 +5,4 @@ from .formatters import *
 from .inline import *
 from .pastebin import *
 from .sys import *
-from .help_pannel *
+from .help_pannel import *
