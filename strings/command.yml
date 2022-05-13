@@ -87,9 +87,6 @@ BLOCK_COMMAND : ["block"]
 UNBLOCK_COMMAND : ["unblock"]
 BLOCKED_COMMAND : ["blockedusers"]
 
-#sPEEDTEST
-SPEEDTEST_COMMAND : ["speedtest"]
-
 #Voice chat commands
 ACTIVEVC_COMMAND : ["onvc"]
 ACTIVEVIDEO_COMMAND : ["activevideo"]
