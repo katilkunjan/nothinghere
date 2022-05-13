@@ -82,6 +82,10 @@ AUTHORIZE_COMMAND : ["authorize"]
 UNAUTHORIZE_COMMAND : ["unauthorize"]
 AUTHORIZED_COMMAND : ["authorized"]
 
+#sPEEDTEST
+SPEEDTEST_COMMAND : ["speedtest"]
+
+
 #Block Users Command
 BLOCK_COMMAND : ["block"]
 UNBLOCK_COMMAND : ["unblock"]
