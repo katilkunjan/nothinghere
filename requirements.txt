@@ -21,6 +21,6 @@ wget
 youtube-search
 youtube-search-python
 git+https://github.com/adityacheats/downloader@master
-
+speedtest-cli
 
 
