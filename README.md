@@ -15,3 +15,4 @@ The easiest way to deploy this Bot
     <a href="https://t.me/Technobotsupport"> <img src="https://img.shields.io/badge/Join-Our-green" /> <img src="https://img.shields.io/badge/Support-Group-critical" /> </a>
 </p>
 <a href="https://t.me/Technobotupdate"><img src="https://img.shields.io/badge/Telegram-𝐔𝐩𝐝𝐚𝐭𝐞%20'𝐬%20𝐂𝐡𝐚𝐧𝐧𝐞𝐥%20-gold?&style=flat-square?&logo=telegram" width=600px></a></p>
+<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=UGF2YW5NYWdhci9Db2RleHVuTXVzaWNCb3QgbWFpbg"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
