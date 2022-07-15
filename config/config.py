@@ -8,14 +8,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "9393563"))
-API_HASH = getenv("API_HASH", "1e26828319829d1952cc51e008e89b91")
+API_ID = int(getenv("API_ID", "8998012"))
+API_HASH = getenv("API_HASH", "b953769c69dbbb1e4b9dd7db16f1a451")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5532932947:AAE5cteaMxyVcgq8ITSn0GXYpXAowVF66oE")
+BOT_TOKEN = getenv("BOT_TOKEN", "7323408:AAGuyAq9h_fkh_jrynNaSuOjR6S1QbEwlqY")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://userbotmusic:techno@cluster0.wqede.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Romeo:Romeo@cluster0.mlrrv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -28,14 +28,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001555993723"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001750682671"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "miss cuite")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Nikku")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5231150389").split())
+    map(int, getenv("OWNER_ID", "5301800943").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -47,7 +47,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/terabaaphube/yukk",
+    "https://github.com/katilkunjan/nothinghere",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -122,7 +122,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "AQAt_UpOXUi6aiWcR8_cEhWDC1D5Wye5rGJKoxwiR989bxaVQDJDUgNvOSs_MdleAoqMY-wGdXOmOiOPFRZniTlX5hb9uK4Cr_fFGe917JijetTbC9OFNMZhVPJDH1patcnTWsEhyBAtZWWisGUMe9DPUiRjX5jNAiqsE1jxUjljGLaIlTiJd4CsvXax21aps_rI-3pz8kBMrEQNd8sTw5m-Dtf3-GCrSbydmD38pYH52lam4hFm3vAv2N7hbMaBsrLSom0BE9qJdlSWKaXUq7LwaPOI2ito9TPZ03psdRExu833LXIDUzkVlasb4J5UXcDg1y_wuRQ7gzbBWf6acfqMAAAAATUNt44A")
+STRING1 = getenv("STRING_SESSION", "BQBBz9rnV6uP_Pck3GbnYIQBAVmVaLUxVrk1Eze3tDHA3IpRKS8pLZHAUR0sELXukKW78QXb9geCzIVtU8OejOgy3FKYe_rthKrd9L0X3vLBrjUTcpI8HxIIGDyMQS7ARidZNIoEha7n1vpXzGv9azAWtxI8tA-uoVlLR3G11O_vLGZoYYHeIoUEpQxZdRw2IIrbrNPB5QddBOvRkoLvd45zI0Kk8OCkP6sozoHs--LvMq-95RJNgjGdv63NRldz7lm3tQlVabEjezcjcIZxTJJyG6waEAWHLoIRwJGl5mCnUM5AY2vWfIZaBJzdCXxphGgMtSSKtPPpjc8SRTX0tm13AAAAATym_O8A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
