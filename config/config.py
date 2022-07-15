@@ -12,7 +12,7 @@ API_ID = int(getenv("API_ID", "9393563"))
 API_HASH = getenv("API_HASH", "1e26828319829d1952cc51e008e89b91")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5289196395:AAGf8XbhDxh6f3pL36DANB9l3jh9n05DKh4")
+BOT_TOKEN = getenv("BOT_TOKEN", "5532932947:AAE5cteaMxyVcgq8ITSn0GXYpXAowVF66oE")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://userbotmusic:techno@cluster0.wqede.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
@@ -28,10 +28,10 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001738593877"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001555993723"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Techno")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "miss cuite")
 
 # Your User ID.
 OWNER_ID = list(
@@ -47,7 +47,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Team-techno/yukk",
+    "https://github.com/terabaaphube/yukk",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -57,10 +57,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", None
-)  # Example:- https://t.me/Technobotupdate
+)  # Example:- https://t.me/misscuitesupport
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
-)  # Example:- https://t.me/Technobotsupport
+)  # Example:- https://t.me/misscuitesupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -122,7 +122,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "AQAMSysE3UOoLpaGkMl9PL82iTyY8u_35A_pfG1-tX7H78Rb9LiofDKtPnFx2qBwpRcvLwwx9X7zOycuEDRa1kW44UgUV88WDU8_zICCmJoBOM70ofd-iCRQIzSi1r5gZ8dwQhYgIL4wdUWBm2S-ksgyYHdNGqjHeyDWkDmptAe0FR_yK9zV_3jbxXLM7exqbFl12JUOnyrM_ywpJFaayhgNCjqFlbFLIeJdaql7c12nlUGF2sCBog5Yx9tsBXWFQpaCAhZo8sSSYALCu8K0ZXNpsrSfEmf7BmoOkO7r-jyPy4sqB0U6Q2Y6_hJKC84SoVNYW7GgUL51VItpX5enaBZVAAAAAU2F01IA")
+STRING1 = getenv("STRING_SESSION", "AQAt_UpOXUi6aiWcR8_cEhWDC1D5Wye5rGJKoxwiR989bxaVQDJDUgNvOSs_MdleAoqMY-wGdXOmOiOPFRZniTlX5hb9uK4Cr_fFGe917JijetTbC9OFNMZhVPJDH1patcnTWsEhyBAtZWWisGUMe9DPUiRjX5jNAiqsE1jxUjljGLaIlTiJd4CsvXax21aps_rI-3pz8kBMrEQNd8sTw5m-Dtf3-GCrSbydmD38pYH52lam4hFm3vAv2N7hbMaBsrLSom0BE9qJdlSWKaXUq7LwaPOI2ito9TPZ03psdRExu833LXIDUzkVlasb4J5UXcDg1y_wuRQ7gzbBWf6acfqMAAAAATUNt44A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
